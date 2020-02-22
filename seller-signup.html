@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Bootstrap Example</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<style>
+  .card-width{
+   width: 600px;
+  }
+  .footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: red;
+   color: white;
+   text-align: center;
+}
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg bg-info navbar-dark">
+<a href="#" class="navbar-brand">
+      <!-- Logo Image -->
+      <img src="https://natani.com.vn/upload/hinhanh/ve-logo-emart-6676-8547.png"
+ width="100" alt="" class="d-inline-block align-middle mr-2">
+      <!-- Logo Text -->
+    </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+  <ul class="navbar-nav">
+  
+    <li class="nav-item active">
+      <a class="nav-link" href="#">SellerSignup</a>
+    </li>
+    <li class="nav-item active">
+      <a class="nav-link" href="buyer-signup.html">BuyerSignup</a>
+    </li>
+  </ul>
+  </div>
+</nav>
+
+<div class="container-fluid ">
+<div class="row ">
+<div class="col">
+</div>
+<div class="col">
+<div class="card card-width mx-4 my-3">
+<div class="card-header"><h5>Seller Signup</h5></div>
+<div class="card-body">
+<form action="">
+<div class="row">
+<div class="col">
+<div class="Form-group">
+<label for="id">ID</label>
+<input type="text" class="form-control " id="ID" placeholder="id" name="id"/>
+</div></div></div>
+
+<div class="row">
+<div class="col">
+<div class="Form-group">
+<label for="username">UserName</label>
+<input type="text" class="form-control " id="username" placeholder="username" name="username"/>
+</div></div>
+                   <div class="col ">
+<div class="Form-group">
+<label for="pass">Password</label>
+<input type="password" class="form-control " id="password" placeholder="password" name="password"/>
+</div></div></div>
+
+<div class="row">
+<div class="col">
+<div class="Form-group">
+<label for="company name">Company name</label>
+<input type="text" class="form-control " id="cname" placeholder="company name" name="company name"/>
+</div></div>
+<div class="col">
+<div class="Form-group">
+<label for="gst">GSTIN</label>
+<input type="number" class="form-control " id="gstin" placeholder="gstin" name="gstno"/>
+</div></div></div>
+
+<div class="row">
+<div class="col">
+<div class="Form-group">
+<label for="about">About</label>
+<textarea class="form-control " id="about" placeholder="about company" name="aboutcompany"></textarea>
+</div></div></div>
+
+<div class="row">
+<div class="col">
+<div class="Form-group">
+<label for="address">Postal address</label>
+<textarea class="form-control " id="address" placeholder="postal address" name="address"></textarea>
+</div></div></div>
+
+<div class="row">
+<div class="col ">
+<div class="Form-group">
+<label for="mail">Email</label>
+<input type="email" class="form-control " id="mail" placeholder="Email" name="email"/>
+</div></div>
+<div class="col ">
+<div class="Form-group">
+<label for="phno">MobileNumber</label>
+<input type="tel" class="form-control " id="phno" placeholder="mobile number" name="ph.no"/>
+</div></div></div>
+<button type="submit" class="btn btn-info mx-2 my-2">REGISTER</button>
+<label>Already have an Account?</label>
+<a href="Login.html">Login</a>
+</form>
+
+</div>
+</div>
+</div>
+<div class="col">
+</div>
+</div>
+<div class="footer bg-info">
+  <p>Copyright@2020</p>
+</div>
+</div>
+</body>
+</html>

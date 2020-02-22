@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Bootstrap Example</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"
+href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<link rel="stylesheet"
+href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<script
+src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script
+src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script
+src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+ <style>
+  .footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: red;
+   color: white;
+   text-align: center;
+   }
+   </style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg bg-info navbar-dark">
+
+<a href="#" class="navbar-brand">
+      <!-- Logo Image -->
+      <img src="https://natani.com.vn/upload/hinhanh/ve-logo-emart-6676-8547.png"
+ width="100" alt="" class="d-inline-block align-middle mr-2">
+      <!-- Logo Text -->
+    </a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+  <ul class="navbar-nav">
+    <li class="nav-item active ">
+      <a class="nav-link" href="ProductList.html">HOME</a>
+    </li>
+    <li class="nav-item active">
+      <a class="nav-link" href="Login.html">LOGOUT</a>
+    </li>
+   
+  </ul>
+  </div>
+</nav>
+<div class="container mt-5">
+<h2>View Purchase History</h2>
+<div class="panel-group " id="accordion">
+<div class="panel panel-default ">
+<div class="panel-heading ">
+<h4 class="panel-title ">
+<li class="list-group-item bg-info">
+<div class="row ">
+<div class="col" text-left>
+<a data-toggle="collapse" data-parent="#accordion"
+href="#collapse1">1</a>
+</div>
+<div class="col" text-center>
+<a data-toggle="collapse" data-parent="#accordion"
+href="#collapse1">Date:2/6/2020</a>
+</div>
+<div class="col" text-right>
+<a data-toggle="collapse" data-parent="#accordion"
+href="#collapse1">Amount:Rs.150000</a>
+</div>
+</div>
+</div>
+</h4>
+</div>
+<div id="collapse1" class="panel-collapse collapse in">
+<div class="container">
+<div class="col-12">
+<h1 class="mx-5 my-5 text-left">ViewBill</h1>
+</div>
+<div class="col-12">
+<h5 class="mx-5 my-5 text-left">Buyer:Akshara</h5>
+</div>
+<div class="col-12">
+<h5 class="mx-5 my-5 text-left">Purchased Date:2-06-2020</h5>
+</div>
+<div class="list-group">
+<li class="list-group-item ">
+<div class="row">
+<div class="col-3 ">
+<h5 class="list-group-item-heading text-left">
+<b>PRODUCT NAME</b>
+</h5>
+</div>
+<div class="col-3 ">
+<h5 class=" text-right">
+<b>QUANTITY</b>
+</h5>
+</div>
+<div class="col-3 ">
+<h5 class=" text-right">
+<b>PRICE</b>
+</h5>
+</div>
+<div class="col-3 ">
+<h5 class=" text-right">
+<b>AMOUNT</b>
+</h5>
+</div>
+</div>
+</li>
+<li class="list-group-item ">
+<div class="row">
+<div class="col-3 ">
+<h6 class="list-group-item-heading text-left">TV</h6>
+</div>
+<div class="col-3 ">
+<h6 class=" text-right">1</h6>
+</div>
+<div class="col-3 ">
+<h6 class="list-group-item-heading text-right">Rs.50000</h6>
+</div>
+<div class="col-3 ">
+<h6 class=" text-right">Rs:50000</h6>
+</div>
+</div>
+</li>
+<li
+<li class="list-group-item ">
+<div class="row">
+<div class="col-3">
+<h6 class="list-group-item-heading text-left">Camera</h6>
+</div>
+<div class="col-3 ">
+<h6 class=" text-right">2</h6>
+</div>
+<div class="col-3 ">
+<h6 class="list-group-item-heading text-right">Rs.15000</h6>
+</div>
+<div class="col-3 ">
+<h6 class=" text-right">Rs:30000</h6>
+</div>
+</li>
+<li class="list-group-item ">
+<div class="row">
+<div class="col-3 ">
+<h6 class="list-group-item-heading text-left">Watch</h6>
+</div>
+<div class="col-3">
+<h6 class=" text-right">1</h6>
+</div>
+<div class="col-3 ">
+<h6 class="list-group-item-heading text-right">Rs.2000</h6>
+</div>
+<div class="col-3 ">
+<h6 class=" text-right">Rs:2000</h6>
+</div>
+</li>
+<li class="list-group-item ">
+<div class="row">
+<div class="col-11 ">
+<h6 class="list-group-item-heading text-right">GST Tax:</h6>
+</div>
+<div class="col-1 ">
+<h6 class=" text-right">Rs:1000</h6>
+</div>
+</li>
+<li class="list-group-item ">
+<div class="row">
+<div class="col-11 ">
+<h4 class="list-group-item-heading text-right">Grand
+Total:</h4>
+</div>
+<div class="col-1 ">
+<h6 class=" text-right">Rs:150000</h6>
+</div>
+</li>
+
+
+</div>
+</div>
+</div>
+<div class="panel panel-default ">
+<div class="panel-heading ">
+<h4 class="panel-title ">
+<li class="list-group-item bg-info">
+<div class="row ">
+<div class="col" text-left>
+<a data-toggle="collapse" data-parent="#accordion"
+href="#collapse1">2</a>
+</div>
+<div class="col" text-center>
+<a data-toggle="collapse" data-parent="#accordion"
+href="#collapse1">Date:2/5/2020</a>
+</div>
+<div class="col" text-right>
+<a data-toggle="collapse" data-parent="#accordion"
+href="#collapse1">Amount:Rs.3000</a>
+</div>
+</div>
+</div>
+</h4>
+</div>
+<div id="collapse2" class="panel-collapse collapse in">
+<div class="container">
+<div class="col-12">
+<h1 class="mx-5 my-5 text-left">ViewBill</h1>
+</div>
+<div class="col-12">
+<h5 class="mx-5 my-5 text-left">Buyer: sneha</h5>
+</div>
+<div class="col-12">
+<h5 class="mx-5 my-5 text-left">Purchased Date:2-05-2020</h5>
+</div>
+<div class="list-group">
+<li class="list-group-item ">
+<div class="row">
+<div class="col-3 ">
+<h5 class="list-group-item-heading text-left">
+<b>PRODUCT NAME</b>
+</h5>
+</div>
+<div class="col-3 ">
+<h5 class=" text-right">
+<b>QUANTITY</b>
+</h5>
+</div>
+<div class="col-3 ">
+<h5 class=" text-right">
+<b>PRICE</b>
+</h5>
+</div>
+<div class="col-3 ">
+<h5 class=" text-right">
+<b>AMOUNT</b>
+</h5>
+</div>
+</div>
+</li>
+<li class="list-group-item ">
+<div class="row">
+<div class="col-3 ">
+<h6 class="list-group-item-heading text-left">Dress</h6>
+</div>
+<div class="col-3 ">
+<h6 class=" text-right">1.</h6>
+</div>
+<div class="col-3 ">
+<h6 class="list-group-item-heading text-right">Rs.1000</h6>
+</div>
+<div class="col-3 ">
+<h6 class=" text-right">Rs:1000</h6>
+</div>
+</div>
+</li>
+<li
+<li class="list-group-item ">
+<div class="row">
+<div class="col-3">
+<h6 class="list-group-item-heading text-left">books</h6>
+</div>
+<div class="col-3 ">
+<h6 class=" text-right">2</h6>
+</div>
+<div class="col-3 ">
+<h6 class="list-group-item-heading text-right">Rs.500</h6>
+</div>
+<div class="col-3 ">
+<h6 class=" text-right">Rs:1000</h6>
+</div>
+</li>
+<li class="list-group-item ">
+<div class="row">
+<div class="col-3 ">
+<h6 class="list-group-item-heading text-left">Bag</h6>
+</div>
+<div class="col-3">
+<h6 class=" text-right">1</h6>
+</div>
+<div class="col-3 ">
+<h6 class="list-group-item-heading text-right">Rs.700</h6>
+</div>
+<div class="col-3 ">
+<h6 class=" text-right">Rs:700</h6>
+</div>
+</li>
+<li class="list-group-item ">
+<div class="row">
+<div class="col-11 ">
+<h6 class="list-group-item-heading text-right">GST Tax:</h6>
+</div>
+<div class="col-1 ">
+<h6 class=" text-right">Rs:1000</h6>
+</div>
+</li>
+<li class="list-group-item ">
+<div class="row">
+<div class="col-11 ">
+<h4 class="list-group-item-heading text-right">Grand
+Total:</h4>
+</div>
+<div class="col-1 ">
+<h6 class=" text-right">Rs:3000</h6>
+</div>
+</li>
+
+
+</div>
+</div></div>
+<div class="footer bg-info">
+  <p>Copyright@2020</p>
+</div>
+</div>
+</body>
+</html>
